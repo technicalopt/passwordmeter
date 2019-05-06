@@ -2,6 +2,7 @@
   "name": "passwordmeter",
   "description": "Password security checker function based on http://www.passwordmeter.com/",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "commit": "git-cz",
     "check-coverage": "nyc check-coverage --statements 99 --branches 99 --functions 99 --lines 99",
